@@ -229,19 +229,19 @@ main {
   height: 15.96px;
 }
 
-.two-womans {
+.quote {
   width: 100%;
   height: 490px;
   display: flex;
   flex-wrap: wrap;
 }
 
-.two-womans__image {
+.quote__image {
   width: 49%;
   height: 490px;
   background: url(../image/two_womans.jpg) center/cover no-repeat;
 }
-.two-womans__text {
+.quote__text {
   width: 51%;
   height: 490px;
   background-color: #5c3249;
@@ -250,7 +250,7 @@ main {
   justify-content: center;
   align-items: center;
 }
-.two-womans__text_quote {
+.quote__content {
   width: 471px;
   height: 230px;
   font-family: "Cardo", serif;
@@ -261,27 +261,27 @@ main {
   text-align: left;
   color: var(--color-white);
 }
-.two-womans__text_content {
+.quote__author {
   width: 471px;
-  font-family: ;
+  font-family: 'Raleway';
   font-size: 13px;
   color: var(--color-white);
   text-transform: uppercase;
 }
-.two-womans__dotted {
+.quote__dotted {
   display: flex;
   width: 200px;
   height: 100px;
   margin: 31px auto 0;
 }
-.two-womans__dotted-item {
+.quote__dotted-item {
   width: 14px;
   height: 14px;
   border-radius: 50%;
   border: 1px solid #7e5d6f;
   margin-right: 25px;
 }
-.two-womans__dotted-item:active {
+.quote__dotted-item:active {
   background-color: #7e5d6f;
 }
 .download {
@@ -374,6 +374,9 @@ footer {
   margin-bottom: 29px;
   flex-shrink: 0;
 }
+.footer__menu_title:hover {
+    color: rgb(29, 180, 239);
+}
 .footer__menu_content {
   font-family: "Raleway";
   font-style: normal;
@@ -390,30 +393,17 @@ footer {
   text-transform: capitalize;
   flex-shrink: 0;
 }
-.footer__menu_social {
-  margin: 0 30px;
+.footer_icons {
+    display: flex;
+    justify-content: flex-end;
+    width: 59%;
+    margin-left: 32px;
 }
-.footer__icons {
-  display: flex;
-  width: 100%;
-  height: 50px;
-  background-color: rgba(38, 190, 213, 0.425);
+.icon:hover {
+    /* fill: #f01431;  не сработал( */ 
+    stroke: rgb(29, 180, 239);
 }
-.footer__icon-facebook,
-.footer__icon-twitter,
-.footer__icon-linkedin {
-  width: 39px;
-  height: 39px;
-}
-.footer__icon-f-facebook {
-  background: url(/image/f_facebook.svg);
-}
-.footer__icon-t-twitter {
-  background: url(/image/t_twitter.svg);
-}
-.footer__icon-l-linkedin {
-  background: url(/image/l_linkedin.svg);
-}
+
 .footer__bottom {
   display: flex;
   justify-content: center;
@@ -503,3 +493,4 @@ footer {
         display: block;
     }
 }
+
