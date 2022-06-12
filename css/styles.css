@@ -48,6 +48,10 @@ main {
   font-size: 24px;
   text-transform: uppercase;
 }
+.card__title:hover {
+    color: rgb(29, 180, 239);
+    cursor: pointer;
+}
 .card__content {
   font-weight: 400;
   font-size: 18px;
@@ -309,117 +313,6 @@ main {
   text-transform: uppercase;
   margin: 30px;
 }
-.download__button {
-  width: 369px;
-  height: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: var(--color-coral);
-  border: 0;
-  font-weight: 900;
-  font-size: 24px;
-  text-transform: uppercase;
-  color: var(--color-white);
-  outline: none;
-}
-.button:hover {
-  background-color: #f31212;
-  border: 1px solid #af0b0b;
-}
-.button:active {
-  box-shadow: 0 0 16px var(--color-coral);
-}
-footer {
-  width: 100%;
-  height: 341px;
-}
-.footer__container {
-  width: 100%;
-  height: 251px;
-  background-color: #353c65;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.footer__menu {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  width: 77%;
-  color: var(--color-white);
-}
-.footer__bottom {
-  width: 100%;
-  height: 90px;
-  background-color: #2c3154;
-}
-.footer__menu_title-block,
-.footer__menu_content-block {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-}
-.footer__menu_title-share {
-  margin: 0 30px;
-}
-.footer__menu_title {
-  width: 370px;
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 18px;
-  text-transform: uppercase;
-  margin-bottom: 29px;
-  flex-shrink: 0;
-}
-.footer__menu_title:hover {
-    color: rgb(29, 180, 239);
-}
-.footer__menu_content {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-}
-.footer__menu_location,
-.footer__menu_social,
-.footer__menu_about {
-  width: 370px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  text-transform: capitalize;
-  flex-shrink: 0;
-}
-.footer_icons {
-    display: flex;
-    justify-content: flex-end;
-    width: 59%;
-    margin-left: 32px;
-}
-.icon:hover {
-    /* fill: #f01431;  не сработал( */ 
-    stroke: rgb(29, 180, 239);
-}
-
-.footer__bottom {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.footer__bottom-copyright {
-  width: 370px;
-  height: 42px;
-  color: #808080;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-}
-.footer__bottom-creator {
-  color: var(--color-white);
-}
 
 @media (max-width: 1580px) {
   .header {
@@ -492,5 +385,112 @@ footer {
     .burger__label {
         display: block;
     }
+}
+@media (max-width: 320px) {
+    .about {
+        width: 320;
+        height: 574px;
+        background: url(../image/background_burger.jpg) no-repeat;
+    }
+    .header {
+        width: 320px;
+        border-bottom: none;
+    }
+    .header__logo {
+        width: 102px;
+        height: 14px;
+        padding-bottom: 58px;
+    }
+    .logo {
+        width: 155px;
+    }
+    .about__title {
+        width: 280px;
+        height: 210px;
+        font-size: 36px;
+        margin: 20px;
+    }
+    .about__content {
+        width: 280px;
+        height: 64px;
+        font-size: 14px;
+        margin: 40px 20px;
+    }
+    .about__button {
+        width: 320px;
+        margin-top: 10px;
+    }
+    main {
+        width: 320px;
+    }
+    .card__icon {
+        width: 68px;
+        height: 68px;
+        margin-bottom: 40px;
+      }
+    .card__title {
+        font-size: 18px;
+    }
+    .card__content {
+        width: 279px;
+        height: 80px;
+        font-size: 14px;
+    }
+    .main__card_item {
+        width: 320px;
+        gap: 15px;
+
+    }
+    .main__card {
+        display: block;
+        width: 320px;
+        height: 1930px;
+        margin: 15px 0;
+    }
+    .block-pictures {
+        width: 320px;
+        height: 580px;
+    }
+    .block-pictures__pic1,
+    .block-pictures__pic2,
+    .block-pictures__pic3,
+    .block-pictures__pic4,
+    .block-pictures__pic5,
+    .block-pictures__pic6,
+    .block-pictures__pic7,
+    .block-pictures__pic8 {
+        width: 50%;
+        height: 25%;
+    }
+    .block-pictures_hover-title {
+        width: 160px;
+        height: 25px;
+        font-size: 18px;
+    }
+    .block-pictures_hover-text {
+        font-size: 14px;
+    }
+    .block-faces {
+        margin: 35px auto;
+        height: 2450px;
+    }
+    .block-faces__title {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .block-faces__title_red {
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+    .block-faces__content {
+        font-size: 14px;
+        text-align: justify;
+    }
+    ..block-faces__1,
+    .block-faces__2,
+    .block-faces__3,
+    .block-faces__4 {
+      height: 640px;
+      
 }
 

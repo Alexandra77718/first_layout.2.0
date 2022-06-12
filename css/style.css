@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Raleway:wght@700&display=swap');
 
-@import 'root.css';
+@import 'variables.css';
 @import 'basic.css';
 @import 'about.css';
 @import 'styles.css';
-@import 'icons/sprites.svg'
+@import 'icons/sprites.svg';
+@import 'components.css';
+@import 'footer.css';
