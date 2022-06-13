@@ -264,6 +264,7 @@ main {
   letter-spacing: 0em;
   text-align: left;
   color: var(--color-white);
+  text-transform: capitalize;
 }
 .quote__author {
   width: 471px;
@@ -486,11 +487,66 @@ main {
         font-size: 14px;
         text-align: justify;
     }
-    ..block-faces__1,
+    .block-faces__1,
     .block-faces__2,
     .block-faces__3,
     .block-faces__4 {
       height: 640px;
-      
+    }
+    .burger__menu {
+        width: 320px;
+    }
+    .quote {
+        margin-top: 100px;
+    }  
+    .quote__image {
+        width: 320px;
+        height: 212px;
+    }
+    .quote__text {
+        width: 320px;
+        height: 336px;
+    }
+    .quote__content {
+        width: 275px;
+        height: 206px;
+        font-size: 24px;
+        text-align: center;
+    }
+    .quote__author {
+        font-size: 12px;
+        width: 275px;
+        height: 25px;
+    }
+    .quote__dotted {
+        margin-left: 74px;
+    }
+    .download {
+        margin-top: 100px;
+        text-align: center;
+        height: 360px;
+        justify-content: center;
+    }
+    .download__title {
+        width: 280px;
+        height: 80px;
+        font-size: 18px;
+    }
+    .download__text {
+        font-size: 13px;
+    }
+    .footer__container {
+        flex-direction: column;
+        width: 320px;
+        height: 540px;
+    }
+    .footer__menu_title {
+        width: 280px;
+        height: 16px;
+        font-size: 14px;
+    }
+    .footer__menu_title-block {
+
+    }
 }
 

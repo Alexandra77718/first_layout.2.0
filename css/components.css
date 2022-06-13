@@ -38,4 +38,9 @@
         width: 279px;
         height: 58px;  
     }
+    .download_button {
+        width: 278px;
+        height: 77px;
+        font-size: 18px;
+    }
   }
